@@ -1,0 +1,50 @@
+.table-cont {
+    overflow-x: auto;
+  }
+  .top .create-btn {
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .list-main-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .list-left-box{
+    width: 40%;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+
+  .list-ryt-box{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .dots-cont{
+    position: relative;
+  }
+  .dots-cont img{
+    cursor: pointer;
+  }
+  .pop-option{
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: blue;
+    height: 100vw;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #ccc; 
+    margin: 10px 0; 
+  }

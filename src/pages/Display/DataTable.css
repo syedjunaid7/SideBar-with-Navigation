@@ -1,0 +1,93 @@
+.table-div {
+    position: relative;
+    height: 45vh;
+    padding: 9px;
+    border-radius: 7px;
+    background-color: white;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  .table-div .table-lg {
+    background-color: white;
+    display: block;
+  }
+  .table-div .table-sm {
+    display: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    position: relative;
+  }
+  
+  thead {
+    border-radius: 9px !important;
+    position: sticky;
+    top: -9px;
+    background-color: #e58282;
+  }
+  
+  th,
+  td {
+
+    width: auto;
+    padding: 8px;
+    text-align: left;
+    border: none !important;
+    font-size: larger;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:hover {
+    background-color: #e3d3d3ac;
+  }
+  
+  .del-btn {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .del-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  .edit-btn {
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-div {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .edit-div input {
+    margin: 15px;
+  }
+  .edit-div button {
+    margin-top: 19px;
+  }

@@ -1,0 +1,80 @@
+.side-div {
+  background-color: #a076f9;
+  list-style: none;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  height : 100vh;
+  top: 0;
+  min-width: 13%;
+  padding-bottom: 12px;
+  gap: 1rem;
+}
+.img-cont {
+  background-color: #a076f9;
+  display: flex;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  z-index: 1;
+
+}
+.side-div img {
+  margin: 15px 0 20px 0;
+  height: 50px;
+  border-radius: 100%;
+  width: 50px;
+}
+.nav {
+  text-align: left;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.nav:hover {
+  transition: all 200ms ease-in;
+  width: 100%;
+  background-color: white;
+  color: #605c5c;
+}
+.active-link {
+  transition: all 150ms ease-in;
+  width: 100%;
+  background-color: white;
+  color: #605c5c;
+}
+.nav-items {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.nav-items-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+.popup-menu {
+  right: 0;
+  height: 30%;
+  position: absolute;
+}
+.popup-menu p {
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .side-div {
+    display: none;
+    position: sticky;
+  }
+}

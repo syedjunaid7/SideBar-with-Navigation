@@ -1,0 +1,65 @@
+.main{
+    height: 100vh;
+    position: relative;
+    font-size: large;
+}
+.main h1{
+    margin-top: 30px;
+}
+.main-sub-div{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.student-card{ 
+    display: flex;
+    flex-direction: row;
+    gap: 6.5rem;
+    justify-content: space-around;
+}
+.dot-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 81, 0);
+}
+.dot2{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(0, 0, 0);
+}
+/* .link{
+    position: absolute;
+    cursor: pointer;
+    top: 11.3vh;
+    left: 17.4vw;
+    color: rgb(114, 109, 109);
+  } */
+  .link:hover{
+    color: rgb(255, 102, 0);
+  }
+  .link-head-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .chart-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    width: 25%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  .chart-div:hover{
+    transition: 233ms ease-in;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }

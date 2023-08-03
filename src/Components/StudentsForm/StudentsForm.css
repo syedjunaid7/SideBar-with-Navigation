@@ -1,0 +1,175 @@
+.main-form-cont {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: auto;
+  gap: 20px;
+}
+.left-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.right-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.input-box {
+  position: relative;
+  width: 100%;
+}
+input {
+  width: 100%;
+  margin: 9px 0;
+  padding: 15px;
+  border: 1px solid rgb(183, 182, 182);
+  outline: none;
+  border-radius: 0.3rem;
+  background-color: rgb(241, 245, 251);
+}
+.input-box span {
+  position: absolute;
+  left: 0;
+  font-weight: 400;
+  padding: 24px 13px;
+  letter-spacing: 0.1em;
+  pointer-events: none;
+  font-size: 0.9em;
+  transition: 0.5s;
+  color: rgb(170, 169, 169);
+}
+.input-box input:valid ~ span,
+.input-box input:focus ~ span {
+  transform: translateX(8px) translateY(1px);
+  font-size: 0.7em;
+  padding: 0 10px;
+  color: gray;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  background: white;
+  border-radius: 10px;
+}
+.input-box-radio {
+  position: relative;
+  padding: 8px;
+  margin: 9px 0;
+  background: rgb(241, 245, 251);
+  border: 1px solid rgb(183, 182, 182);
+  border-radius: 0.3rem;
+}
+
+.input-box-radio p {
+  color: rgb(170, 169, 169);
+}
+.input-box-personal-info span {
+  position: absolute;
+  transform: translateX(8px) translateY(-25px);
+  left: 0;
+  font-size: 0.7em;
+  padding: 0 10px;
+  letter-spacing: 0.2em;
+  background: white;
+  border-radius: 10px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: rgb(73, 73, 73);
+}
+.dob span {
+  transform: translateX(8px) translateY(0px);
+}
+.input-box-num2-main {
+  display: flex;
+  gap: 2rem;
+}
+.input-box-num2 {
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+.input-box-num2 span {
+  position: absolute;
+  left: 0;
+  font-weight: 400;
+  padding: 24px;
+  letter-spacing: 0.1em;
+  pointer-events: none;
+  font-size: 0.9em;
+  transition: 0.5s;
+  color: rgb(170, 169, 169);
+}
+.input-box-num2 input:valid ~ span,
+.input-box-num2 input:focus ~ span {
+  transform: translateX(20px) translateY(1px);
+  font-size: 0.7em;
+  padding: 0 10px;
+  color: gray;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  background: white;
+  border-radius: 10px;
+}
+
+.right-input-contact {
+  height: 37vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.profile-cont {
+  width: 50%;
+  display: flex;
+  width: auto;
+  gap: 15px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+}
+.profile-cont2 {
+  gap: 0;
+}
+#custom-btn {
+  padding: 10px;
+  color: white;
+  background-color: #009758;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#custom-btn:hover {
+  background-color: azure;
+}
+#custom-text {
+  margin-left: 10px;
+}
+.btn-type {
+  cursor: pointer;
+  width: 100%;
+  margin: 9px 0;
+  font-weight: 500;
+  color: white;
+  padding: 12px;
+  border: 1px solid rgb(183, 182, 182);
+  outline: none;
+  border-radius: 0.3rem;
+  background-color: rgb(1, 103, 255);
+}
+.btn-type:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: 233ms ease-in-out;
+}
+@media screen and (max-width: 480px) {
+  .main-form-cont {
+    display: block;
+  }
+  .input-box-num2 span {
+    padding: 23px 19px;
+  }
+  .input-box-num2 input:valid ~ span,
+  .input-box-num2 input:focus ~ span {
+    transform: translateX(3px) translateY(7px);
+    font-size: 0.4em;
+  }
+}

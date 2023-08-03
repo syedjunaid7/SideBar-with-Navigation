@@ -1,0 +1,31 @@
+.submenu-popup {
+    background-color: rgb(209, 237, 248);
+    padding: 5px;
+    position: absolute;
+    top: 0; /* Update to 0 to align the submenu with its parent list item */
+    left: 100%; /* Update to 100% to position the submenu to the right of its parent */
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  
+    z-index: 1; /* Add this line to set the z-index of the submenu */
+  
+    li {
+      list-style: none;
+  
+      a {
+        text-decoration: none;
+        color: #333;
+        padding: 5px;
+        border-radius: 4px;
+        transition: background-color 0.2s ease;
+  
+        &:hover {
+          background-color: #ccc;
+        }
+      }
+    }
+  }
+  
